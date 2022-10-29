@@ -10,3 +10,19 @@
 或[點這下載](https://drive.google.com/file/d/1CLw6Cn3yNI1N15HyX99_Zy9QnDcgP3q7/view?usp=sharing)
 
 ![image](https://user-images.githubusercontent.com/46515944/198824361-873a97d0-4d8e-4ebe-a50a-ac9976237c8a.png)
+
+# 訓練自己的圖片
+結構如下
+
+    srgan/
+        └── config.py
+        └── srgan.py
+        └── train.py
+        └── vgg.py
+        └── model
+              └── vgg19.npy
+        └── DIV2K
+              └── DIV2K_train_HR
+              ├── DIV2K_train_LR_bicubic
+              ├── DIV2K_valid_HR
+              └── DIV2K_valid_LR_bicubic
