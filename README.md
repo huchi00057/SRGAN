@@ -12,6 +12,7 @@
 ![image](https://user-images.githubusercontent.com/46515944/198824361-873a97d0-4d8e-4ebe-a50a-ac9976237c8a.png)
 
 # 訓練自己的圖片
+除了train與valid兩資料夾外，還需要建立縮小4倍，低解析度的優
 結構如下
 
     srgan/
